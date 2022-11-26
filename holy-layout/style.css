@@ -1,0 +1,47 @@
+div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+    header {
+
+    }
+        
+
+    main {
+        /* Take the remaining height */
+        flex-grow: 1;
+        /* Layout the left sidebar, main content and right sidebar */
+        display: flex;
+        flex-direction: row;
+        /* flex-direction: column; */
+
+    }
+
+         /* Left sidebar  */
+        aside {
+            width: 25%;
+            border: 20px solid gold;
+        }
+
+        /* Middle/main content  */
+        article {
+            /* Take the remaining width */
+            flex-grow: 1;
+            border: 20px solid rgb(68, 64, 100);
+
+        }
+        
+        /* Right sidebar  */
+        nav {
+            width: 20%;
+            border: 20px solid rgb(65, 63, 55);
+
+        }
+
+    footer {
+
+    }
+
+
